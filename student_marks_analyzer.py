@@ -1,5 +1,5 @@
 import numpy as np
-marks=np.random.radiant(40,100,size=(5,3))
+marks=np.random.randint(40,100,size=(5,3))
 print("marks\n",marks)
 student_avg=marks.mean(axis=1)
 subject_avg=marks.mean(axis=0)
