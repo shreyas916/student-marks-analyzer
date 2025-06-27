@@ -1,8 +1,8 @@
-# Student Marks Analyzer 📊
+# Student Marks Analyzer 
 
 A beginner-friendly Python + NumPy project that analyzes marks of 5 students across 3 subjects.
 
-## 🔍 Features:
+##  Features:
 - Random mark generation
 - Calculates:
   - Average per student
@@ -10,8 +10,8 @@ A beginner-friendly Python + NumPy project that analyzes marks of 5 students acr
   - Top student
   - Easiest subject
 
-## 🛠️ Tools:
+##  Tools:
 - Python 3
 - NumPy
 
-## 🧪 Sample Output:
+## Sample Output:
