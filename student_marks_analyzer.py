@@ -1,0 +1,12 @@
+import numpy as np
+marks=np.random.radiant(40,100,size=(5,3))
+print("marks\n",marks)
+student_avg=marks.mean(axis=1)
+subject_avg=marks.mean(axis=0)
+print("average marks of each student",student_avg)
+print("average marks in each subject",subject_avg)
+total_marks=marks.sum(axis=1)
+top_student=np.argmax(total_marks)
+easy_subject=np.argmax(subject_avg)
+print("top student index:",top_student)
+print("easy subject index:",easy_subject)
